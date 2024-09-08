@@ -13,7 +13,7 @@ let check = true
 for(let num = 0; num < 4000; num +=1){
     const box = document.createElement("div")
     box.classList.add("box")
-    box.textContent = "d"
+    box.innerHtml = "&nbsp;"
     box.addEventListener(("mouseover"),() => {
         if(check == true)
         box.style.background = color
