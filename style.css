@@ -8,8 +8,8 @@ body{
 }
 .container{
     display: grid;
-    width: calc(100vw-5px);
-    height: calc(100vh-5px);
+    width: calc(100vw-10px);
+    height: calc(100vh-50px);
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(100, 1fr);
